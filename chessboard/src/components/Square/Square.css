@@ -1,0 +1,37 @@
+.white {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid white;
+}
+
+
+.white:hover, .green:hover {
+  border: 1px solid rgb(183, 183, 243);
+  background-color: rgb(183, 183, 243);
+}
+  
+.green {
+  width: 100%;
+  height: 100%;
+  background-color: #769656;
+  border: 1px solid #769656;
+}
+
+.selectedGreen {
+  border: 1px solid #bbcb2b;
+  background-color: #bbcb2b;
+}
+
+.selectedWhite {
+  border: 1px solid #f7f769;
+  background-color: #f7f769;
+}
+
+@media screen and (max-width: 480px) {
+  .white, .green, .white:hover, .green:hover, .selectedGreen, .selectedWhite {
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+}

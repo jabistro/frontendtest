@@ -1,0 +1,90 @@
+.sidebar {
+    margin-left: 30px;
+    width: 30%;
+    min-width: 180px;
+    max-height: 480px;
+    height: 80%;
+    background-color: #272522;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c3c2c2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #383632;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #31302c;
+}
+
+.intro, .log__output__wrap {
+    width: 90%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.intro__avatar, .log__output__avatar {
+    background-image: url('../../images/charles.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.intro__txt, .log__output__txt {
+    width: 75%;
+    height: 40px;
+    background-color: #3d3b39;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 9px;
+    word-wrap: break-word;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 3px;
+    color: #c3c2c2;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 280px;
+        height: 70%;
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .intro__txt, .log__output__txt {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}
