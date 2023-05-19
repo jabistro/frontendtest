@@ -2,7 +2,7 @@
 
 Welcome to the [Chess.com](https://chess.com) front end programming challenge!
 
-<p align="center"><a href="https://frontendtest-d6s5.onrender.com">Flashback Live Demo</a></p>
+<p align="center"><a href="https://frontendtest-d6s5.onrender.com">Live Demo</a></p>
 
 # Instructions
 1. Fork this repository.
